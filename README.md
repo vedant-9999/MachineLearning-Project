@@ -118,12 +118,25 @@ These visualizations help illustrate model bias, variance, and overall reliabili
 
 ---
 
-8. Key Insights
+ 8. Extended Comparative Analysis with Metrics
 
-- Linear Regression offers high interpretability and quick execution, making it suitable for real-time or large-scale regression tasks with linear dependencies.
-- KNN achieves higher accuracy and captures complex relationships, making it advantageous for small to medium datasets where non-linearity is prominent.
-- Linear Regression scales better, while KNN is ideal when accuracy and adaptability to data are prioritized.
-- The overall accuracy improvement from Linear Regression to KNN is 7 percent, emphasizing the need to choose the right model based on data characteristics.
+ Linear Regression Metrics
+- Mean Squared Error (MSE): 0.1190  
+- Mean Absolute Error (MAE): 0.1190  
+- Root Mean Squared Error (RMSE): 0.3450  
+ K-Nearest Neighbors Metrics
+- Accuracy: 0.9524  
+- F1 Score: 0.9521  
+- Precision: 0.9563  
+- Recall: 0.9524  
+
+Interpretation
+The quantitative comparison confirms that KNN outperforms Linear Regression in terms of predictive accuracy and overall classification capability.  
+While Linear Regression maintains lower continuous error values (MSE/MAE), KNN demonstrates superior F1 Score, Precision, and Recall, making it more reliable for final classification predictions.  
+
+Linear Regression is preferable when simplicity, interpretability, and fast computation are required.  
+KNN is ideal for datasets with non-linear relationships and achieves higher accuracy when tuned properly.
+
 
 ---
 
