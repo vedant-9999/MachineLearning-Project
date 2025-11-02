@@ -105,9 +105,9 @@ The comparative visualizations and metrics show that KNN provides better predict
 7. Visualization and Insights
 
 Model 1: Linear Regression  
-- Regression line plot showing the linear fit.  
-- Distribution of residuals highlighting prediction errors.  
-- Scatter plot comparing predicted vs actual values.
+-Confusion Matrix showing how correct and incorrect predictions are spread across classes.
+-ROC Curve illustrating the balance between sensitivity and specificity.
+-AUC Score indicating the overall classification performance of the model.
 
 Model 2: K-Nearest Neighbors  
 - Decision boundary plot illustrating neighborhood influence.  
