@@ -3,10 +3,39 @@ Comparative Analysis of Linear Regression and K-Nearest Neighbors (KNN)
 
 1. Introduction
 
-This project presents a detailed study comparing two supervised learning algorithms: Linear Regression and K-Nearest Neighbors (KNN). Both models are assessed on the same dataset with the same preprocessing and training methods to keep the comparison fair.
+This project looks at the Rock vs Mine Classification Problem using sonar signal reflections. The aim is to determine if an object detected by sonar sound waves is a **Rock (R)** or a **Mine (M)**. This is a classic supervised machine learning problem.
 
-The main goal of this analysis is to explore the performance, behavior, and features of each algorithm when used for prediction. The study looks at accuracy, interpretability, computational efficiency, and how well they fit different types of data.
+This study compares two machine learning algorithms, **Linear Regression** and **K-Nearest Neighbors (KNN)**, using the same dataset. Both algorithms undergo identical preprocessing and evaluation steps to allow for a fair comparison. The project examines how they differ in behavior, accuracy, ease of understanding, computational cost, and their suitability for real-world classification tasks.
 
+This analysis shows how two different supervised learning methods perform on the same non-linear signal dataset and identifies when to use each algorithm.
+
+### 1.1 Dataset Source  
+Dataset: **Sonar Target Classification Dataset (Rock vs Mine)**  
+Link: **https://www.kaggle.com/datasets/mahmudulhaqueshawon/sonar-data**
+
+This dataset has 208 samples. Each sample includes **60 sonar frequency energy values** obtained from bouncing sonar signals off a surface. The label indicates if the response pattern is a **Rock (R)** or a **Metal Mine (M)**. This dataset is valuable for evaluating binary classification.
+
+### 1.2 Steps to Implement Linear Regression (Normal Method)
+- Import libraries and load dataset  
+- Perform basic preprocessing and label conversion  
+- Split data into train and test sets  
+- Fit the Linear Regression model  
+- Make predictions using the test data  
+- Evaluate the model using MSE, MAE, and RMSE  
+- Plot the ROC Curve and Confusion Matrix  
+- Interpret linear fitting in relation to dataset complexity
+
+### 1.3 Steps to Implement K-Nearest Neighbors (KNN)
+- Import libraries and load dataset  
+- Preprocess the data and apply Feature Scaling  
+- Split data into train and test sets  
+- Choose K value for tuning  
+- Train the KNN Model  
+- Make predictions using the test data  
+- Evaluate using Accuracy, Precision, Recall, and F1 Score  
+- Plot the Decision Boundary, Confusion Matrix, and Accuracy vs K  
+- Analyze the effect of neighborhood and non-linearity
+  
 ---
 
 2. Objective
