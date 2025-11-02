@@ -105,9 +105,9 @@ The comparative visualizations and metrics show that KNN provides better predict
 7. Visualization and Insights
 
 Model 1: Linear Regression  
--Confusion Matrix showing how correct and incorrect predictions are spread across classes.
--ROC Curve illustrating the balance between sensitivity and specificity.
--AUC Score indicating the overall classification performance of the model.
+- Confusion Matrix showing how correct and incorrect predictions are spread across classes.
+- ROC Curve illustrating the balance between sensitivity and specificity.
+- AUC Score indicating the overall classification performance of the model.
 
 Model 2: K-Nearest Neighbors  
 - Decision boundary plot illustrating neighborhood influence.  
@@ -144,7 +144,7 @@ KNN outperforms Linear Regression by 7 percent in overall accuracy, which stress
 ├── ML_PRJ_MODEL2.ipynb -> Model 2: K-Nearest Neighbors
 └── README.md -> Report and Comparative Documentation
   
- 11. Future Enhancements
+11. Future Enhancements
 
 - Include cross-validation techniques to improve accuracy evaluation.
 - Use feature selection and dimensionality reduction methods (PCA, LDA).
@@ -152,7 +152,7 @@ KNN outperforms Linear Regression by 7 percent in overall accuracy, which stress
 - Create a Streamlit-based web interface for interactive visualization and prediction.
 - Improve KNN using KD-Tree or Ball-Tree implementation for large datasets.
 
- 12. Author Details
+12. Author Details
 
 Name: Vedant Lokhande  
 Organization: Symbiosis Institute of Technology  
@@ -160,6 +160,6 @@ Location: Nagpur, Maharashtra, India
 Field of Work: Artificial Intelligence, Data Science, IoT, Financial Engineering  
 Date: October 2025  
 
- 13. Final Remark
+13. Final Remark
 
 The comparative analysis shows that no single algorithm is universally better. The effectiveness of a model depends on the problem structure, dataset characteristics, and computational limits. A balanced evaluation of accuracy, interpretability, and scalability is important for choosing the best model for real-world applications.
